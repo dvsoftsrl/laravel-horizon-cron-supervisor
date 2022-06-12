@@ -17,7 +17,7 @@ jobs:
         stability: [ prefer-lowest, prefer-stable ]
         exclude:
           - laravel: 8.*
-            dependency-version: prefer-lowest
+            stability: prefer-lowest
 
     name: P${{ matrix.php }} - L${{ matrix.laravel }} - ${{ matrix.stability }}
 
