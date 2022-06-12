@@ -2,9 +2,8 @@
 
 namespace DvSoft\LaravelHorizonCronSupervisor\Tests;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use DvSoft\LaravelHorizonCronSupervisor\LaravelHorizonCronSupervisorServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
@@ -23,6 +22,5 @@ class TestCase extends Orchestra
     public function getEnvironmentSetUp($app)
     {
         config()->set('database.default', 'testing');
-
     }
 }

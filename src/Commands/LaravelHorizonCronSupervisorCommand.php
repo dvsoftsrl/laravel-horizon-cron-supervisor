@@ -14,12 +14,11 @@ class LaravelHorizonCronSupervisorCommand extends Command
 
     public function handle(): int
     {
-
         Artisan::call('horizon:status');
 
         $res = Artisan::output();
 
-        if (!Str::contains($res, 'Horizon is running')) {
+        if (! Str::contains($res, 'Horizon is running')) {
             $this->comment('Horizon is not running, starting it');
 
             $this->call('horizon');

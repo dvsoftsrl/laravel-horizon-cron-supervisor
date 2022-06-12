@@ -2,10 +2,10 @@
 
 namespace DvSoft\LaravelHorizonCronSupervisor;
 
+use DvSoft\LaravelHorizonCronSupervisor\Commands\LaravelHorizonCronSupervisorCommand;
 use Illuminate\Console\Scheduling\Schedule;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use DvSoft\LaravelHorizonCronSupervisor\Commands\LaravelHorizonCronSupervisorCommand;
 
 class LaravelHorizonCronSupervisorServiceProvider extends PackageServiceProvider
 {
