@@ -15,6 +15,12 @@ You can install the package via composer:
 composer require dvsoftsrl/laravel-horizon-cron-supervisor
 ```
 
+## Compatibility
+
+- Laravel 10
+- Laravel 11
+- Laravel 12
+
 ## Usage
 
 The package is fully configured to work automatically.
