@@ -13,7 +13,7 @@ class TestCase extends Orchestra
      *
      * @var mixed
      */
-    protected static $latestResponse;
+    public static $latestResponse;
 
     protected function setUp(): void
     {
