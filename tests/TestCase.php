@@ -8,6 +8,13 @@ use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
+    /**
+     * Testbench 9 resets this property during setup.
+     *
+     * @var mixed
+     */
+    protected static $latestResponse;
+
     protected function setUp(): void
     {
         parent::setUp();
