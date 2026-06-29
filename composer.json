@@ -1,6 +1,7 @@
 {
     "name": "dvsoftsrl/laravel-horizon-cron-supervisor",
     "description": "Running Laravel Horizon with a CRON supervisor",
+    "type": "library",
     "keywords": [
         "dvsoftsrl",
         "laravel",
